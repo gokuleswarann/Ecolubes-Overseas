@@ -3,21 +3,23 @@ import logo from '@assets/image_1766152637296.png';
 
 // Industrial Solvents
 import hexane from '@assets/stock_images/clear_industrial_sol_8914e975.jpg';
-import toluene from '@assets/stock_images/toluene_aromatic_sol_b2076505.jpg';
-import xylene from '@assets/stock_images/xylene_chemical_solv_0741a26a.jpg';
+import toluene from '@assets/stock_images/toluene_aromatic_che_f04b1c73.jpg';
+import xylene from '@assets/stock_images/xylene_organic_solve_8ad06a02.jpg';
 import mixSolvents from '@assets/stock_images/industrial_solvent_m_fd3b94a3.jpg';
 import thinner from '@assets/stock_images/paint_thinner_solven_07a4ac40.jpg';
 
 // Petroleum Products
-import baseOil from '@assets/stock_images/base_oil_mineral_oil_caed5dfb.jpg';
-import sn500 from '@assets/stock_images/sn_500_base_oil_heav_b15e65d1.jpg';
-import sn150 from '@assets/stock_images/sn_150_base_oil_ligh_848be6e7.jpg';
-import lubricantOil from '@assets/stock_images/lubricant_motor_oil__e4ebb4c2.jpg';
-import grease from '@assets/stock_images/industrial_grease_lu_5a7edcbf.jpg';
+import baseOil from '@assets/stock_images/golden_mineral_base__29b65f6c.jpg';
+import sn500 from '@assets/stock_images/sn_500_heavy_viscosi_8830cb52.jpg';
+import sn150 from '@assets/stock_images/sn_150_light_grade_b_91941e3e.jpg';
+import lubricantOil from '@assets/stock_images/motor_lubricant_engi_ad1e5933.jpg';
+import grease from '@assets/stock_images/industrial_bearing_g_a2b1013b.jpg';
 import bitumen from '@assets/stock_images/bitumen_asphalt_pavi_52e9cbfe.jpg';
 
 // Textile Chemicals
-import peg from '@assets/stock_images/peg_polyethylene_gly_53bbe44d.jpg';
+import peg200 from '@assets/stock_images/polyethylene_glycol__11b90868.jpg';
+import peg400 from '@assets/stock_images/peg_400_polyethylene_b3e375c7.jpg';
+import peg600 from '@assets/stock_images/peg_600_high_viscosi_80495539.jpg';
 
 export const COMPANY_CONFIG = {
   name: "Ecolubes Overseas",
@@ -126,7 +128,7 @@ export const PRODUCTS = [
     id: 12,
     category: "Textile Chemicals",
     name: "PEG 400",
-    image: peg,
+    image: peg400,
     tags: ["Textile Chemical", "Polyethylene Glycol", "Industrial"],
     description: "Polyethylene glycol 400 for textile, cosmetic, and pharmaceutical applications."
   },
@@ -134,7 +136,7 @@ export const PRODUCTS = [
     id: 13,
     category: "Textile Chemicals",
     name: "PEG 200",
-    image: peg,
+    image: peg200,
     tags: ["Textile Chemical", "Polyethylene Glycol", "Industrial"],
     description: "Polyethylene glycol 200 with lower viscosity for specialized chemical processes."
   },
@@ -142,7 +144,7 @@ export const PRODUCTS = [
     id: 14,
     category: "Textile Chemicals",
     name: "PEG 600",
-    image: peg,
+    image: peg600,
     tags: ["Textile Chemical", "Polyethylene Glycol", "Industrial"],
     description: "Polyethylene glycol 600 for enhanced lubricity and processing efficiency."
   }
