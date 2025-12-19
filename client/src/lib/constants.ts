@@ -2,7 +2,7 @@ import heroImage from '@assets/stock_images/industrial_port_ship_fa42aa8a.jpg';
 import logo from '@assets/image_1766152637296.png';
 
 // Industrial Solvents
-import hexane from '@assets/stock_images/hexane_lab_bottle_custom.png';
+import hexane from '@assets/stock_images/hexane_lab_bottle_updated.png';
 import toluene from '@assets/stock_images/toluene_lab_bottle_custom.png';
 import xylene from '@assets/stock_images/xylene_lab_bottle_custom.png';
 import mixSolvents from '@assets/stock_images/industrial_solvent_m_fd3b94a3.jpg';
