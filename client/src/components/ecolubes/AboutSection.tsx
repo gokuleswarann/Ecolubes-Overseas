@@ -1,6 +1,7 @@
 import { Users, Globe, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import workerImage from '@assets/stock_images/professional_industr_8cbf9505.jpg';
 
 export function AboutSection() {
   const stats = [
@@ -108,18 +109,22 @@ export function AboutSection() {
             variants={itemVariants}
             className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl"
           >
-            <div
-              className="w-full h-full bg-gradient-to-br from-blue-200 via-blue-100 to-cyan-50 flex items-center justify-center"
-              style={{
-                backgroundImage: 'linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(34, 197, 233, 0.1) 100%)'
-              }}
-            >
-              <div className="text-center p-8 space-y-4">
-                <div className="w-24 h-24 bg-white/30 rounded-full mx-auto flex items-center justify-center backdrop-blur-sm">
-                  <Globe className="h-12 w-12 text-primary/30" />
+            <img 
+              src={workerImage} 
+              alt="Industrial professional at work" 
+              className="w-full h-full object-cover"
+            />
+            {/* Overlay with stats card */}
+            <div className="absolute bottom-6 left-6 right-6 bg-white rounded-xl shadow-lg p-4 backdrop-blur-sm bg-white/95">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-accent">7+</div>
+                  <p className="text-xs font-medium text-muted-foreground">Base Oil Products</p>
                 </div>
-                <p className="text-primary/40 font-medium">Global Trade Hub</p>
-                <p className="text-xs text-primary/30">Connecting Dubai's finest petrochemical products to markets worldwide</p>
+                <div className="text-center border-l border-border">
+                  <div className="text-2xl font-bold text-accent">7+</div>
+                  <p className="text-xs font-medium text-muted-foreground">Hydrocarbon Products</p>
+                </div>
               </div>
             </div>
           </motion.div>
