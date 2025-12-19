@@ -2,9 +2,9 @@ import heroImage from '@assets/stock_images/industrial_port_ship_fa42aa8a.jpg';
 import logo from '@assets/image_1766152637296.png';
 
 // Industrial Solvents
-import hexane from '@assets/stock_images/clear_industrial_sol_8914e975.jpg';
-import toluene from '@assets/stock_images/toluene_aromatic_che_f04b1c73.jpg';
-import xylene from '@assets/stock_images/xylene_organic_solve_8ad06a02.jpg';
+import hexane from '@assets/stock_images/hexane_solvent_chemi_12f7b791.jpg';
+import toluene from '@assets/stock_images/toluene_yellow_chemi_272d7146.jpg';
+import xylene from '@assets/stock_images/xylene_red_chemical__01cd1193.jpg';
 import mixSolvents from '@assets/stock_images/industrial_solvent_m_fd3b94a3.jpg';
 import thinner from '@assets/stock_images/paint_thinner_solven_07a4ac40.jpg';
 
