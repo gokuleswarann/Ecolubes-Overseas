@@ -1,13 +1,9 @@
-import { Users, Globe, Zap } from 'lucide-react';
+import { Users, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import workerImage from '@assets/stock_images/professional_industr_8cbf9505.jpg';
 
 export function AboutSection() {
-  const stats = [
-    { number: '7+', label: 'Base Oil Products', icon: Zap },
-    { number: '7+', label: 'Hydrocarbon Products', icon: Globe }
-  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -87,21 +83,6 @@ export function AboutSection() {
                 </CardContent>
               </Card>
             </motion.div>
-
-            {/* Stats */}
-            <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6 pt-4">
-              {stats.map((stat, index) => {
-                const IconComponent = stat.icon;
-                return (
-                  <div key={index} className="text-center">
-                    <div className="text-3xl md:text-4xl font-serif font-bold text-accent mb-1">
-                      {stat.number}
-                    </div>
-                    <p className="text-sm font-medium text-muted-foreground">{stat.label}</p>
-                  </div>
-                );
-              })}
-            </motion.div>
           </motion.div>
 
           {/* Right Image */}
@@ -114,19 +95,6 @@ export function AboutSection() {
               alt="Industrial professional at work" 
               className="w-full h-full object-cover"
             />
-            {/* Overlay with stats card */}
-            <div className="absolute bottom-6 left-6 right-6 bg-white rounded-xl shadow-lg p-4 backdrop-blur-sm bg-white/95">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-accent">7+</div>
-                  <p className="text-xs font-medium text-muted-foreground">Base Oil Products</p>
-                </div>
-                <div className="text-center border-l border-border">
-                  <div className="text-2xl font-bold text-accent">7+</div>
-                  <p className="text-xs font-medium text-muted-foreground">Hydrocarbon Products</p>
-                </div>
-              </div>
-            </div>
           </motion.div>
         </motion.div>
       </div>
