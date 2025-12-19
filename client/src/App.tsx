@@ -4,6 +4,7 @@ import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import { Navbar } from "@/components/ecolubes/Navbar";
 import { Hero } from "@/components/ecolubes/Hero";
+import { AboutSection } from "@/components/ecolubes/AboutSection";
 import { ProductGrid } from "@/components/ecolubes/ProductGrid";
 import { QuoteSidebar } from "@/components/ecolubes/QuoteSidebar";
 import { ContactSection } from "@/components/ecolubes/ContactSection";
@@ -43,6 +44,7 @@ function App() {
         
         <main>
           <Hero />
+          <AboutSection />
           <ProductGrid 
             onAddToCart={handleAddToCart} 
             cartItems={cartItems} 
