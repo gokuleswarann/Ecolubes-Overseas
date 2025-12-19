@@ -33,7 +33,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 bg-accent/25 border border-accent/40 rounded-full px-4 py-2 backdrop-blur-md text-accent font-semibold text-sm tracking-wide"
           >
             <Globe className="h-4 w-4" />
-            <span>Exporting Globally from Dubai</span>
+            <span>Exporting Globally from UAE</span>
           </motion.div>
 
           {/* Main Headline */}
