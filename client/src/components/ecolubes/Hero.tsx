@@ -4,6 +4,13 @@ import { ArrowRight, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function Hero() {
+  const handleScrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative h-[90vh] min-h-[650px] w-full overflow-hidden flex items-center justify-center pt-20">
       {/* Background Image with Professional Overlay */}
@@ -65,6 +72,7 @@ export function Hero() {
               size="lg" 
               className="bg-accent text-primary font-bold text-base px-8 h-12 rounded-lg hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl hover:shadow-accent/30 border-0"
               data-testid="button-request-quote"
+              onClick={() => handleScrollToSection('contact')}
             >
               Request Quote
             </Button>
@@ -73,6 +81,7 @@ export function Hero() {
               variant="outline" 
               className="text-white border-white/40 border-2 hover:bg-white/15 hover:border-white/60 text-base px-8 h-12 rounded-lg backdrop-blur-sm font-semibold transition-all"
               data-testid="button-view-catalog"
+              onClick={() => handleScrollToSection('products')}
             >
               View Catalog <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
