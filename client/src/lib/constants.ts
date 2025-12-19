@@ -5,7 +5,7 @@ import product3 from '@assets/stock_images/blue_industrial_oil__ce21dabe.jpg';
 import product4 from '@assets/stock_images/black_bitumen_asphal_d66fbc03.jpg';
 import product5 from '@assets/stock_images/dark_heavy_fuel_oil__9b1c97a7.jpg';
 import product6 from '@assets/stock_images/petrochemical_refine_b9f936ad.jpg';
-import logo from '@assets/generated_images/minimalist_oil_drop_logo.png';
+import logo from '@assets/image_1766152637296.png';
 
 export const COMPANY_CONFIG = {
   name: "Ecolubes Overseas",
