@@ -3,7 +3,7 @@ import logo from '@assets/image_1766152637296.png';
 
 // Industrial Solvents
 import hexane from '@assets/stock_images/hexane_solvent_chemi_12f7b791.jpg';
-import toluene from '@assets/stock_images/toluene_yellow_chemi_272d7146.jpg';
+import toluene from '@assets/stock_images/toluene_lab_bottle_custom.png';
 import xylene from '@assets/stock_images/xylene_red_chemical__01cd1193.jpg';
 import mixSolvents from '@assets/stock_images/industrial_solvent_m_fd3b94a3.jpg';
 import thinner from '@assets/stock_images/paint_thinner_solven_07a4ac40.jpg';
