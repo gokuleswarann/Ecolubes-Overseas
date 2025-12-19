@@ -1,0 +1,81 @@
+Goal: Build a single-page B2B Industrial Export Web Application called "Ecolubes Overseas" using React, Vite, and Tailwind CSS.
+
+Tech Stack:
+
+React (Vite)
+
+Tailwind CSS (for styling)
+
+Lucide React (for icons)
+
+Google Gemini API (for AI features)
+
+Core Features to Implement:
+
+Global Configuration:
+Create a constant COMPANY_CONFIG object to centrally manage:
+
+Name: "Ecolubes Overseas"
+
+Logo URL: "https://www.google.com/search?q=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Oil_Drop.svg/512px-Oil_Drop.svg.png"
+
+Email: sales@ecolubesoverseas.com
+
+Phone: +971 4 123 4567
+
+Address: Business Bay, Dubai, UAE
+
+Product Catalog (Mock Data):
+Create a PRODUCTS array with these items (use high-quality industrial Unsplash/Wikimedia URLs for images):
+
+Virgin Base Oil SN 150 (Golden oil image)
+
+Virgin Base Oil SN 500 (Amber oil image)
+
+Recycled Base Oil SN 150 (Industrial drums image)
+
+Bitumen 60/70 (Dark asphalt image)
+
+Fuel Oil CST 180 (Dark heavy oil image)
+
+Industrial Solvents (Refinery image)
+
+UI Components:
+
+Navbar: Responsive, sticky, with a "Request Quote" counter.
+
+Hero Section: Full-width background image (Industrial port), overlay text, "Export from Dubai to the World" badge.
+
+Product Grid: distinct cards showing Image, Specs (tags), and an "Add to Quote" button.
+
+Quote Sidebar (Cart): Slide-out drawer showing selected items. Instead of "Checkout", use a button "Proceed to Inquiry".
+
+Contact Section: Detailed footer with MapPin, Phone, and Email icons.
+
+AI Features (Requires Gemini API):
+
+EcoBot Widget: A floating chat button in the bottom right. Opens a chat window where users can ask technical questions about oil specs. Use a system prompt: "You are an expert petrochemical consultant for Ecolubes."
+
+Magic Email Drafter: In the Contact Form, add a button "✨ AI Draft". It should take the user's rough notes and generate a professional B2B inquiry letter using the LLM.
+
+Technical Requirements:
+
+Use fetch to call the Gemini API (https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent).
+
+Use process.env.GEMINI_API_KEY or Replit Secrets for the API Key.
+
+Ensure the design is fully responsive (mobile-friendly).
+
+Use specific Tailwind colors: bg-blue-900 for primary, text-yellow-500 for accents.
+
+Dependencies to Install:
+
+lucide-react
+
+tailwindcss
+
+postcss
+
+autoprefixer
+
+Please generate the full, functional code in App.jsx and ensure Tailwind is configured correctly.
