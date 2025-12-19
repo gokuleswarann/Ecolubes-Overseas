@@ -17,9 +17,9 @@ import grease from '@assets/stock_images/industrial_bearing_g_a2b1013b.jpg';
 import bitumen from '@assets/stock_images/bitumen_asphalt_pavi_52e9cbfe.jpg';
 
 // Textile Chemicals
-import peg200 from '@assets/stock_images/polyethylene_glycol__11b90868.jpg';
-import peg400 from '@assets/stock_images/peg_400_polyethylene_b3e375c7.jpg';
-import peg600 from '@assets/stock_images/peg_600_high_viscosi_80495539.jpg';
+import peg200 from '@assets/stock_images/peg_200_chemical_com_e3b021c6.jpg';
+import peg400 from '@assets/stock_images/peg_400_polyethylene_83b4268b.jpg';
+import peg600 from '@assets/stock_images/peg_600_viscous_chem_ae206a2d.jpg';
 
 export const COMPANY_CONFIG = {
   name: "Ecolubes Overseas",
