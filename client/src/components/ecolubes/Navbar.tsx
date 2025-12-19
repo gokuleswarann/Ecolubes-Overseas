@@ -27,13 +27,13 @@ export function Navbar({ cartCount, onOpenCart }: NavbarProps) {
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <img 
             src={COMPANY_CONFIG.logoUrl} 
             alt="Logo" 
-            className="h-20 w-20 object-contain drop-shadow-md" 
+            className="h-16 w-16 object-contain drop-shadow-md" 
           />
-          <div className={`font-serif font-bold text-4xl tracking-tight transition-colors ${
+          <div className={`font-serif font-bold text-3xl tracking-tight transition-colors ${
             isScrolled ? 'text-primary' : 'text-white'
           }`}>
             {COMPANY_CONFIG.name}
