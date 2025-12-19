@@ -44,10 +44,10 @@ export function Hero() {
             className="space-y-3"
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight text-white drop-shadow-lg">
-              Premium Industrial Oils
+              Industrial Composite Solvents
             </h1>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-accent drop-shadow-lg">
-              & Bitumen Export
+              & Petroleum Products
             </h2>
           </motion.div>
 
@@ -58,7 +58,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="max-w-2xl text-lg md:text-xl text-white/95 font-light leading-relaxed tracking-wide"
           >
-            Your trusted partner for Virgin Base Oils, Recycled Oils, and Bitumen. Connecting the Middle East's energy resources to the world.
+            Your trusted partner for premium industrial solvents and petroleum solutions. Connecting the Middle East's finest chemical products to global markets.
           </motion.p>
 
           {/* CTA Buttons */}
