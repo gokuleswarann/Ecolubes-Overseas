@@ -10,7 +10,7 @@ import thinner from '@assets/stock_images/thinner_bottle_custom.png';
 
 // Petroleum Products
 import baseOil from '@assets/stock_images/golden_mineral_base__29b65f6c.jpg';
-import sn500 from '@assets/stock_images/sn_500_heavy_viscosi_8830cb52.jpg';
+import sn500 from '@assets/stock_images/sn500_base_oil_custom.png';
 import sn150 from '@assets/stock_images/sn_150_light_grade_b_91941e3e.jpg';
 import lubricantOil from '@assets/stock_images/motor_lubricant_engi_ad1e5933.jpg';
 import grease from '@assets/stock_images/industrial_bearing_g_a2b1013b.jpg';
