@@ -56,7 +56,7 @@ function App() {
           <div className="container mx-auto px-4">
             <p className="text-sm opacity-60">
               © {new Date().getFullYear()} {COMPANY_CONFIG.name}. All rights reserved. 
-              <br className="md:hidden"/> Exporting Excellence from Dubai.
+              <br className="md:hidden"/> Exporting Excellence from UAE.
             </p>
           </div>
         </footer>
