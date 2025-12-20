@@ -26,8 +26,12 @@ export function AboutSection() {
   };
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-muted/20 to-background">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-20 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
+      {/* Industrial texture overlay */}
+      <div className="absolute inset-0 opacity-5" style={{
+        backgroundImage: 'url("data:image/svg+xml,%3Csvg width="100" height="100" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" /%3E%3C/filter%3E%3Crect width="100" height="100" filter="url(%23noise)" /%3E%3C/svg%3E")'
+      }} />
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -40,7 +44,7 @@ export function AboutSection() {
             {/* Header */}
             <div className="space-y-3">
               <p className="text-sm font-bold text-accent tracking-widest uppercase">Who We Are</p>
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary leading-tight">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-white leading-tight">
                 Powering Industries Globally
               </h2>
             </div>
@@ -48,36 +52,36 @@ export function AboutSection() {
             {/* Description */}
             <motion.p
               variants={itemVariants}
-              className="text-lg text-muted-foreground leading-relaxed"
+              className="text-lg text-gray-300 leading-relaxed"
             >
               Ecolubes Overseas is a premier exporter based in Dubai, specializing in the supply of high-grade Base Oils and Hydrocarbons. Leveraging Dubai's strategic position as a global trade hub, we connect quality manufacturers with industries worldwide.
             </motion.p>
 
             {/* Mission & Vision Cards */}
             <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Card className="bg-blue-50 border-0 shadow-sm hover:shadow-md transition-shadow">
+              <Card className="bg-slate-800/80 border border-slate-700/50 shadow-lg hover:shadow-xl hover:border-accent/30 transition-all">
                 <CardHeader className="pb-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-2">
-                    <Users className="h-5 w-5 text-primary" />
+                  <div className="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center mb-2">
+                    <Users className="h-5 w-5 text-accent" />
                   </div>
-                  <CardTitle className="text-lg font-bold text-primary">Our Mission</CardTitle>
+                  <CardTitle className="text-lg font-bold text-white">Our Mission</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-sm text-gray-300 leading-relaxed">
                     To deliver superior petroleum products with unmatched reliability, fostering long-term partnerships through transparency and excellence.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="bg-yellow-50 border-0 shadow-sm hover:shadow-md transition-shadow">
+              <Card className="bg-slate-800/80 border border-slate-700/50 shadow-lg hover:shadow-xl hover:border-accent/30 transition-all">
                 <CardHeader className="pb-3">
-                  <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-2">
+                  <div className="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center mb-2">
                     <Globe className="h-5 w-5 text-accent" />
                   </div>
-                  <CardTitle className="text-lg font-bold text-primary">Our Vision</CardTitle>
+                  <CardTitle className="text-lg font-bold text-white">Our Vision</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-sm text-gray-300 leading-relaxed">
                     To become the world's preferred bridge for energy solutions, setting the benchmark for quality in the petrochemical export industry.
                   </p>
                 </CardContent>
