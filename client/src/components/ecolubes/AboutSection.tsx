@@ -54,7 +54,7 @@ export function AboutSection() {
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              Ecolubes Overseas is a premier exporter based in Dubai, specializing in the supply of high-grade Base Oils and Hydrocarbons. Leveraging Dubai's strategic position as a global trade hub, we connect quality manufacturers with industries worldwide.
+              Ecolube Overseas is a premier exporter based in Dubai, specializing in the supply of high-grade Base Oils and Hydrocarbons. Leveraging Dubai's strategic position as a global trade hub, we connect quality manufacturers with industries worldwide.
             </motion.p>
 
             {/* Mission & Vision Cards */}

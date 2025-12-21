@@ -7,7 +7,7 @@ import { MessageSquare, Send, X, Bot, Sparkles } from 'lucide-react';
 import { generateContent } from '@/lib/gemini';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const SYSTEM_PROMPT = "You are EcoBot, an expert petrochemical consultant for Ecolubes Overseas. You answer technical questions about Base Oils (SN 150, SN 500), Bitumen, and Fuel Oil export. Keep answers professional, concise, and helpful for B2B clients. Focus on specs, logistics, and quality.";
+const SYSTEM_PROMPT = "You are EcoBot, an expert petrochemical consultant for Ecolube Overseas. You answer technical questions about Base Oils (SN 150, SN 500), Bitumen, and Fuel Oil export. Keep answers professional, concise, and helpful for B2B clients. Focus on specs, logistics, and quality.";
 
 interface Message {
   role: 'user' | 'bot';

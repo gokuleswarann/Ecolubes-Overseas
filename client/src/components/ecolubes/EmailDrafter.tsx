@@ -26,7 +26,7 @@ export function EmailDrafter({ onDraftGenerated, productNames }: EmailDrafterPro
     }
 
     setIsGenerating(true);
-    const prompt = `Write a professional B2B inquiry email for Ecolubes Overseas.
+    const prompt = `Write a professional B2B inquiry email for Ecolube Overseas.
     User context/notes: "${notes}"
     Interested Products: ${productNames.join(', ')}
     

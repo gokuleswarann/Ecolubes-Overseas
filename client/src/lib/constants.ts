@@ -22,7 +22,7 @@ import peg400 from '@assets/stock_images/peg_400_polyethylene_83b4268b.jpg';
 import peg600 from '@assets/stock_images/peg_600_viscous_chem_ae206a2d.jpg';
 
 export const COMPANY_CONFIG = {
-  name: "Ecolubes Overseas",
+  name: "Ecolube Overseas",
   logoUrl: logo,
   email: "mohammedbasha@ecolubesoverseas.com",
   phone: "+971 4 123 4567",
