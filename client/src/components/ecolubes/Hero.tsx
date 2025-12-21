@@ -12,7 +12,7 @@ export function Hero() {
   };
 
   return (
-    <div className="relative h-[90vh] min-h-[650px] w-full overflow-hidden flex items-center justify-center pt-32 md:pt-20">
+    <div className="relative h-[90vh] min-h-[650px] w-full overflow-hidden flex items-center justify-center pt-56 md:pt-20">
       {/* Background Image with Professional Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
