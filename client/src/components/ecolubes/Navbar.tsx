@@ -33,7 +33,7 @@ export function Navbar({ cartCount, onOpenCart }: NavbarProps) {
             alt="Logo" 
             className="h-10 w-10 md:h-16 md:w-16 object-contain drop-shadow-md" 
           />
-          <div className={`font-serif font-bold text-2xl md:text-5xl tracking-tight transition-colors ${
+          <div className={`font-serif font-bold text-4xl tracking-tight transition-colors ${
             isScrolled ? 'text-primary' : 'text-white'
           }`}>
             {COMPANY_CONFIG.name}
