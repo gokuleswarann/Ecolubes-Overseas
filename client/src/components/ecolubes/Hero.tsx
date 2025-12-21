@@ -24,7 +24,7 @@ export function Hero() {
 
       {/* Content Container */}
       <div className="container relative z-10 px-4 max-w-4xl">
-        <div className="space-y-8">
+        <div className="space-y-10 md:space-y-8">
           {/* Badge */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
