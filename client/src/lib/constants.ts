@@ -26,7 +26,7 @@ export const COMPANY_CONFIG = {
   logoUrl: logo,
   email: "mohammedbasha@ecolubeoverseas.com",
   phone: "+971 4 123 4567",
-  address: "Business Bay, Dubai, UAE",
+  address: "E-11 F-10 Hamriyah Free Zone, Sharjah",
   description: "Premium Industrial Solvents & Petroleum Products Export from Dubai to the World."
 };
 
