@@ -24,8 +24,8 @@ import peg600 from '@assets/stock_images/peg_600_viscous_chem_ae206a2d.jpg';
 export const COMPANY_CONFIG = {
   name: "Ecolube Overseas",
   logoUrl: logo,
-  email: "mohammedbasha@ecolubeoverseas.com",
-  phone: "+971 4 123 4567",
+  email: "sales@ecolubeoverseas.com",
+  phone: "+971 50 236 0093",
   address: "E-11 F-10 Hamriyah Free Zone, Sharjah",
   description: "Premium Industrial Solvents & Petroleum Products Export from Dubai to the World."
 };
