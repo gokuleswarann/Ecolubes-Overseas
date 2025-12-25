@@ -6,7 +6,7 @@ const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-
 export async function generateContent(prompt: string, systemInstruction?: string) {
   if (!GEMINI_API_KEY) {
     // Return a mock response if no key is present for the preview
-    return "I'm EcoBot, your industrial oil assistant. Please configure the GEMINI_API_KEY to enable real AI responses. For now, I can tell you that we offer premium Virgin Base Oils (SN 150, SN 500) and Bitumen 60/70 exported globally from Dubai.";
+    return "I'm EcoBot, your industrial oil assistant. Please configure the GEMINI_API_KEY to enable real AI responses. For now, I can tell you that we offer premium Virgin Base Oils (SN 150, SN 500) and Bitumen 60/70 exported globally from UAE.";
   }
 
   try {

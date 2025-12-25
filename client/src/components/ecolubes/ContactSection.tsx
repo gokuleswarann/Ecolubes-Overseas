@@ -33,7 +33,7 @@ export function ContactSection({ cartItemIds }: ContactSectionProps) {
             <div>
               <h2 className="text-4xl font-serif font-bold mb-4 text-accent">Get in Touch</h2>
               <p className="text-primary-foreground/80 text-lg leading-relaxed">
-                Ready to source premium industrial oils? Contact our trading desk in Dubai for competitive quotes and logistics solutions.
+                Ready to source premium industrial oils? Contact our trading desk in UAE for competitive quotes and logistics solutions.
               </p>
             </div>
 

@@ -27,7 +27,7 @@ export const COMPANY_CONFIG = {
   email: "sales@ecolubeoverseas.com",
   phone: "+971 50 236 0093",
   address: "E-11 F-10 Hamriyah Free Zone, Sharjah",
-  description: "Premium Industrial Solvents & Petroleum Products Export from Dubai to the World."
+  description: "Premium Industrial Solvents & Petroleum Products Export from UAE to the World."
 };
 
 export const PRODUCTS = [
